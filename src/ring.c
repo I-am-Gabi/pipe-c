@@ -71,7 +71,7 @@ int main() {
                 // fprintf(stderr, "station : %s\n", current_station);
 
                 // execute station
-                execl("./station", "./station", current_station, NULL);
+                execl("./bin/station", "./bin/station", current_station, NULL);
 
                 // error
                 perror("error exec");
