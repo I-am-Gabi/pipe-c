@@ -20,7 +20,7 @@ void execute()
         _exit(1);
     }
     else if (pid == 0) {
-        int fd = creat("directory/out", 0644);
+        int fd = creat("../directory/out", 0644);
         dup2(fd, STDOUT_FILENO); /* standard output file descriptor */
         dup2(fd, STDERR_FILENO); /* standard error file descriptor */
         close(fd);

@@ -7,6 +7,8 @@
 
 #define MSG_LEN 50
 
+#define PACKAGE_LEN sizeof(struct Package)
+
 typedef enum { FREE, ACK, BUSY} token;
 
 struct Package {
@@ -14,6 +16,6 @@ struct Package {
     int   transmitters;
     int   receptors;
     char  content[MSG_LEN];
-} package;
+};
 
 #endif //REDIRECTFLUX_PACKAGE_H
