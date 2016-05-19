@@ -68,8 +68,6 @@ int main() {
                 // close all file descriptor
                 close_all(fd);
 
-                // fprintf(stderr, "station : %s\n", current_station);
-
                 // execute station
                 execl("./bin/station", "./bin/station", current_station, NULL);
 
