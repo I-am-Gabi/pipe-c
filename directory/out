@@ -1,0 +1,87 @@
+total 112
+-rw-r--r--   1 gabriela  staff  12806 May 18 21:35 CMakeCache.txt
+drwxr-xr-x  16 gabriela  staff    544 May 18 21:44 CMakeFiles
+-rw-r--r--   1 gabriela  staff    199 May 18 21:42 CMakeLists.txt
+-rw-r--r--   1 gabriela  staff   5009 May 18 21:42 Makefile
+-rw-r--r--   1 gabriela  staff   1268 May 18 21:35 cmake_install.cmake
+drwxr-xr-x   5 gabriela  staff    170 May 18 21:43 directory
+-rwxr-xr-x   1 gabriela  staff   8916 May 18 21:44 exe
+drwxr-xr-x   3 gabriela  staff    102 May 12 13:49 header
+-rw-r--r--   1 gabriela  staff    825 May 18 21:41 tst_pipes.c
+-rw-r--r--   1 gabriela  staff    883 May 18 21:44 tst_redirect.c
+-rw-r--r--   1 gabriela  staff    391 May 12 13:49 util.c
+
+./CMakeFiles:
+total 160
+drwxr-xr-x   9 gabriela  staff    306 May 18 21:35 3.3.2
+-rw-r--r--   1 gabriela  staff    671 May 18 21:35 CMakeDirectoryInformation.cmake
+-rw-r--r--   1 gabriela  staff  27974 May 18 21:35 CMakeOutput.log
+drwxr-xr-x   2 gabriela  staff     68 May 18 21:35 CMakeTmp
+-rw-r--r--   1 gabriela  staff   2266 May 18 21:42 Makefile.cmake
+-rw-r--r--   1 gabriela  staff   3185 May 18 21:42 Makefile2
+-rw-r--r--   1 gabriela  staff     68 May 18 21:42 TargetDirectories.txt
+-rw-r--r--   1 gabriela  staff     85 May 18 21:42 cmake.check_cache
+drwxr-xr-x  12 gabriela  staff    408 May 18 21:44 exe.dir
+-rwxr-xr-x   1 gabriela  staff   8376 May 18 21:35 feature_tests.bin
+-rw-r--r--   1 gabriela  staff    726 May 18 21:35 feature_tests.c
+-rw-r--r--   1 gabriela  staff   8842 May 18 21:35 feature_tests.cxx
+-rw-r--r--   1 gabriela  staff      2 May 18 21:42 progress.marks
+drwxr-xr-x  12 gabriela  staff    408 May 18 21:41 redirectflux.dir
+
+./CMakeFiles/3.3.2:
+total 64
+-rw-r--r--  1 gabriela  staff  1952 May 18 21:35 CMakeCCompiler.cmake
+-rw-r--r--  1 gabriela  staff  4457 May 18 21:35 CMakeCXXCompiler.cmake
+-rwxr-xr-x  1 gabriela  staff  4304 May 18 21:35 CMakeDetermineCompilerABI_C.bin
+-rwxr-xr-x  1 gabriela  staff  4288 May 18 21:35 CMakeDetermineCompilerABI_CXX.bin
+-rw-r--r--  1 gabriela  staff   362 May 18 21:35 CMakeSystem.cmake
+drwxr-xr-x  4 gabriela  staff   136 May 18 21:35 CompilerIdC
+drwxr-xr-x  4 gabriela  staff   136 May 18 21:35 CompilerIdCXX
+
+./CMakeFiles/3.3.2/CompilerIdC:
+total 56
+-rw-r--r--  1 gabriela  staff  15354 May 18 21:35 CMakeCCompilerId.c
+-rwxr-xr-x  1 gabriela  staff   8536 May 18 21:35 a.out
+
+./CMakeFiles/3.3.2/CompilerIdCXX:
+total 56
+-rw-r--r--  1 gabriela  staff  15380 May 18 21:35 CMakeCXXCompilerId.cpp
+-rwxr-xr-x  1 gabriela  staff   8528 May 18 21:35 a.out
+
+./CMakeFiles/CMakeTmp:
+
+./CMakeFiles/exe.dir:
+total 88
+-rw-r--r--  1 gabriela  staff   261 May 18 21:44 C.includecache
+-rw-r--r--  1 gabriela  staff   539 May 18 21:42 DependInfo.cmake
+-rw-r--r--  1 gabriela  staff  4590 May 18 21:42 build.make
+-rw-r--r--  1 gabriela  staff   230 May 18 21:42 cmake_clean.cmake
+-rw-r--r--  1 gabriela  staff   200 May 18 21:44 depend.internal
+-rw-r--r--  1 gabriela  staff   152 May 18 21:44 depend.make
+-rw-r--r--  1 gabriela  staff   190 May 18 21:42 flags.make
+-rw-r--r--  1 gabriela  staff   153 May 18 21:42 link.txt
+-rw-r--r--  1 gabriela  staff    43 May 18 21:42 progress.make
+-rw-r--r--  1 gabriela  staff  1552 May 18 21:44 tst_redirect.c.o
+
+./CMakeFiles/redirectflux.dir:
+total 88
+-rw-r--r--  1 gabriela  staff   261 May 18 21:41 C.includecache
+-rw-r--r--  1 gabriela  staff   548 May 18 21:41 DependInfo.cmake
+-rw-r--r--  1 gabriela  staff  5022 May 18 21:41 build.make
+-rw-r--r--  1 gabriela  staff   266 May 18 21:41 cmake_clean.cmake
+-rw-r--r--  1 gabriela  staff   209 May 18 21:41 depend.internal
+-rw-r--r--  1 gabriela  staff   161 May 18 21:41 depend.make
+-rw-r--r--  1 gabriela  staff   190 May 18 21:39 flags.make
+-rw-r--r--  1 gabriela  staff   171 May 18 21:41 link.txt
+-rw-r--r--  1 gabriela  staff    43 May 18 21:41 progress.make
+-rw-r--r--  1 gabriela  staff  1552 May 18 21:39 tst_redirect.c.o
+
+./directory:
+total 0
+-rw-r--r--  1 gabriela  staff  0 May 12 11:14 A
+-rw-r--r--  1 gabriela  staff  0 May 12 10:23 B
+-rw-r--r--  1 gabriela  staff  0 May 18 21:44 out
+
+./header:
+total 8
+-rw-r--r--  1 gabriela  staff  168 May 12 13:49 util.h
