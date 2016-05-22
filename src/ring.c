@@ -69,7 +69,7 @@ int main() {
                 close_all(fd);
 
                 // execute station
-                execl("./bin/station", "./bin/station", current_station, NULL);
+                execl("./station", "./station", current_station, NULL);
 
                 // error
                 perror("error exec");
