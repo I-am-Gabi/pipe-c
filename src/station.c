@@ -8,6 +8,11 @@
 #include <stdlib.h>
 #include "../include/package.h"
 
+
+/**
+ * Interface to handle with the communication between the client and the stations.
+ * PS.: I used %30[^] to accepted an input with more than one word.
+ */
 void interface_station(int station_current, struct Package *package_data) {
     int station_to = station_current;
     FILE * input;
@@ -36,6 +41,9 @@ void interface_station(int station_current, struct Package *package_data) {
     fclose(input);
 }
 
+/**
+ * Protocol to define the rules of communication.
+ */
 void protocol(int station_id, struct Package *package_data) {
     if (package_data->tk == FREE)
         interface_station(station_id, package_data);
